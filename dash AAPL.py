@@ -3,9 +3,6 @@ import streamlit as st
 # Title 
 st.title("Dashboard AAPL")
 
-# Input from the user
-name = st.text_input(
-
 # Display a greeting
 
 name = st.text_input("Enter your name:")
