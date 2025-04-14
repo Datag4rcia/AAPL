@@ -8,8 +8,8 @@ name = st.text_input(
 
 # Display a greeting
 if name:
-	st.write(f"Hello, {name}! Dashboard AAPL.")"Enter your name:") My Streamlit App")of the appimport streamlit as st
-	st.write(f"Hello, {name}! Welcome to the app.")
+	st.write(f"Hello, {name}! Dashboard AAPL.")"Enter your name:") My Streamlit App")
+	st.write(f"Hello, {name}! Welcome to the dashboard.")
 if name:
 # Display a greeting
 
