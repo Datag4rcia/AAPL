@@ -1,5 +1,5 @@
 
-
+import streamlit as st
 # Title 
 st.title("Dashboard AAPL")
 
@@ -7,10 +7,11 @@ st.title("Dashboard AAPL")
 name = st.text_input(
 
 # Display a greeting
-if name:
-	st.write(f"Hello, {name}! Dashboard AAPL.")"Enter your name:") My Streamlit App")
-	st.write(f"Hello, {name}! Welcome to the dashboard.")
-if name:
+
+name = st.text_input("Enter your name:")
+st.write(f"Hello, {name}! Dashboard AAPL.")
+st.title("My Streamlit App")
+
 # Display a greeting
 
 name = st.text_input("Enter your name:")
